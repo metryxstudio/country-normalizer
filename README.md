@@ -1,6 +1,6 @@
 # Country Normalizer
 
-A server-side Google Tag Manager variable template that converts country names to ISO 3166-1 alpha-2 codes (lowercase) for server-side tracking. Supports 195+ countries with native language variants.
+A Google Tag Manager variable template for both web and server containers that converts country names to ISO 3166-1 alpha-2 codes (lowercase) for server-side tracking. Supports 195+ countries with native language variants.
 
 ## Overview
 
@@ -8,7 +8,7 @@ This template converts full country names to standardized two-letter ISO codes r
 
 ## Installation
 
-1. In your server-side GTM container, go to **Templates** → **Variable Templates** → **Search Gallery**
+1. In your GTM container (web or server-side), go to **Templates** → **Variable Templates** → **Search Gallery**
 2. Search for "Country Normalizer"
 3. Click **Add to workspace**
 
@@ -57,6 +57,12 @@ This template converts full country names to standardized two-letter ISO codes r
 1. Create a variable using this template
 2. Set **Raw Country** to your country data source (e.g., `{{Event Data - country}}`)
 3. Use the normalized output in your tracking tags
+
+## Compatibility
+
+This template works in both:
+- **Web GTM** containers
+- **Server-side GTM** containers
 
 ## Author
 
