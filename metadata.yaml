@@ -1,5 +1,5 @@
 homepage: "https://github.com/metryxstudio/country-normalizer"
 documentation: "https://github.com/metryxstudio/country-normalizer#readme"
 versions:
-  - sha: # Add your commit SHA after pushing to GitHub
+  - sha: 6307cd0186e164b31920a583de541a37cdc35ea1
     changeNotes: "Initial release"
